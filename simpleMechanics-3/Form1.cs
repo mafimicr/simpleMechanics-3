@@ -33,22 +33,22 @@ namespace simpleMechanics_3
             answer = 10 == (2 * 5);
             answer = (16 != 12);
             answer = 20 != 20.0001;
-            answer= 3<= 4;
+            answer = 3 <= 4;
             answer = 13 <= 67;
             answer = 15 <= 98.0;
             answer = 14 >= 3;
             answer = 25 >= 10;
             answer = 20 >= 13;
-            answer = (2*8) >= 10;
-            answer = (10*100) >= (10*5);
-            answer = (3*100) >= (30*10);
+            answer = (2 * 8) >= 10;
+            answer = (10 * 100) >= (10 * 5);
+            answer = (3 * 100) >= (30 * 10);
             if (4 > 1)
             {
                 answer = true;
             }
             if (11 > 5)
             {
-                answer = true;       
+                answer = true;
             }
             if (42 > 34)
             {
@@ -184,7 +184,7 @@ namespace simpleMechanics_3
             {
                 answer = false;
             }
-            if (number5 ==5)
+            if (number5 == 5)
             {
                 answer = true;
             }
@@ -227,7 +227,21 @@ namespace simpleMechanics_3
             {
                 answer = true;
             }
-            else if (number2 > -45)
+            else 
+            if (number2 > -45)
+            {
+                answer = true;
+            }
+            else
+            {
+                answer = false;
+            }
+        
+            if (number3 < 34)
+            {
+                answer = true;
+            }else
+            if (number3 < 64)
             {
                 answer = true;
             }
@@ -238,7 +252,8 @@ namespace simpleMechanics_3
             if (number3 < 34)
             {
                 answer = true;
-            }else if (number3 < 64)
+            }
+            else if (number3 < 64)
             {
                 answer = true;
             }
@@ -246,6 +261,396 @@ namespace simpleMechanics_3
             {
                 answer = false;
             }
+
+            if (number4 > -29)
+            {
+                answer = true;
+            }
+            else
+            if (number4 > 11.5)
+            {
+                answer = true;
+            }
+            else
+            {
+                answer = false;
+            }
+            if (number4 < -29)
+            {
+                answer = true;
+            }
+            else if (number4 > 11.5)
+            {
+                answer = true;
+            }
+            else
+            {
+                answer = false;
+            }
+
+            if (number1 > 1)
+            {
+                answer = true;
+            }
+            else
+            if (number1 > 19)
+            {
+                answer = true;
+            }
+            else
+            {
+                answer = false;
+            }
+            if (number1 > 1)
+            {
+                answer = true;
+            }
+            else if (number1 > 29)
+            {
+                answer = true;
+            }
+            else
+            {
+                answer = false;
+            }
+
+            if (50 > number2)
+            {
+                answer = true;
+            }
+            else
+            if (number2 < 32)
+            {
+                answer = true;
+            }
+            else
+            {
+                answer = false;
+            }
+            if (50 > number2)
+            {
+                answer = true;
+            }
+            else if (number2 < 32)
+            {
+                answer = true;
+            }
+            else
+            {
+                answer = false;
+            }
+
+            if (number2 < 21)
+            {
+                answer = true;
+            }
+            else
+            if (number2 < 25.5)
+            {
+                answer = true;
+            }
+            else
+            {
+                answer = false;
+            }
+            if (number2 < 21)
+            {
+                answer = true;
+            }
+            else if (number2 < 25.5)
+            {
+                answer = true;
+            }
+            else
+            {
+                answer = false;
+            }
+
+            if (number3 == 5)
+            {
+                answer = true;
+            }
+            else
+            if (number3 == 75)
+            {
+                answer = true;
+            }
+            else
+            {
+                answer = false;
+            }
+            if (number3 == 5)
+            {
+                answer = true;
+            }
+            else if (number3 == 75)
+            {
+                answer = true;
+            }
+            else
+            {
+                answer = false;
+            }
+
+
+            if (number5 == 3)
+            {
+                answer = true;
+            }
+            else
+            if (number1 < 3)
+            {
+                answer = true;
+            }
+            else
+            {
+                answer = false;
+            }
+            if (number5 == 3)
+            {
+                answer = true;
+            }
+            else if (number1 < 3)
+            {
+                answer = true;
+            }
+            else
+            {
+                answer = false;
+            }
+
+            if (number5 == 5)
+            {
+                answer = true;
+            }
+            else
+            if (number5 < 15)
+            {
+                answer = true;
+            }   
+            else
+            if(number5 > 16)
+            {
+                answer = true;
+            }
+            else
+            {
+                answer = false;
+            }
+            if (number5== 5)
+            {
+                answer = true;
+            }
+            else if (number5 < 15)
+            {
+                answer = true;
+            }
+            else if (number5 > 16)
+            {
+                answer = true;
+            }
+            else
+            {
+                answer = false;
+            }
+
+            if (number3 == 16)
+            {
+                answer = true;
+            }
+            else
+            if (number4 != 81)
+            {
+                answer = true;
+            }
+            else
+            if (number5 != 1)
+            {
+                answer = true;
+            }
+            else
+            {
+                answer = false;
+            }
+            if (number3 == 16)
+            {
+                answer = true;
+            }
+            else if (number4 != 81)
+            {
+                answer = true;
+            }
+            else
+           if (number5 != 1)
+            {
+                answer = true;
+            }
+            else
+            {
+                answer = false;
+            }
+
+            if (number1 == 12)
+            {
+                answer = true;
+            }
+            else if (number1 == 11)
+            {
+                answer = true;
+            }
+            else if (number1 == 10)
+            {
+                answer = true;
+            }
+            else
+            {
+                answer = false;
+            }
+            switch (number1)
+            {
+                case 12:
+                    answer = true;
+                    break;
+                case 11:
+                    answer = true;
+                    break;
+                case 10:
+                    answer = true;
+                    break;
+                default:
+                    answer = false;
+                    break;
+            }
+
+            if (number2 == 15)
+            {
+                answer = true;
+            }
+            else if (number2 == -34)
+            {
+                answer = true;
+            }
+            else if (number2 == 45)
+            {
+                answer = true;
+            }
+            else
+            {
+                answer = false;
+            }
+            switch (number2)
+            {
+                case -34:
+                    answer = true;
+                    break;
+                case 15:
+                    answer = true;
+                    break;
+                case 45:
+                    answer = true;
+                    break;
+                default:
+                    answer = false;
+                    break;
+            }
+
+            if (number3 == 9944)
+            {
+                answer = true;
+            }
+            else if (number3 == 1)
+            {
+                answer = true;
+            }
+            else if (number3 == 22)
+            {
+                answer = true;
+            }
+            else
+            {
+                answer = false;
+            }
+            switch (number3)
+            {
+                case 1:
+                    answer = true;
+                    break;
+                case 22:
+                    answer = true;
+                    break;
+                case 944:
+                    answer = true;
+                    break;
+                default:
+                    answer = false;
+                    break;
+            }
+
+            if (number4 == 7825)
+            {
+                answer = true;
+            }
+            else if (number4 == 64)
+            {
+                answer = true;
+            }
+            else if (number4 == 1090)
+            {
+                answer = true;
+            }
+            else
+            {
+                answer = false;
+            }
+            switch (number4)
+            {
+                case 64:
+                    answer = true;
+                    break;
+                case 1090:
+                    answer = true;
+                    break;
+                case 7825:
+                    answer = true;
+                    break;
+                default:
+                    answer = false;
+                    break;
+            }
+
+            if (number5 == -134)
+            {
+                answer = true;
+            }
+            else if (number5 == -1324)
+            {
+                answer = true;
+            }
+            else if (number5 == -2435)
+            {
+                answer = true;
+            }
+            else
+            {
+                answer = false;
+            }
+            switch (number1)
+            {
+                case -2435:
+                    answer = true;
+                    break;
+                case -1324:
+                    answer = true;
+                    break;
+                case -134:
+                    answer = true;
+                    break;
+                default:
+                    answer = false;
+                    break;
+            }
+            
         }
+
     }
 }
